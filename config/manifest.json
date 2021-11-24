@@ -31,28 +31,8 @@
         "entryID": "0",
         "word": "1",
         "definition": "2",
-        "audio": [
-            {
-                "speaker": "3",
-                "filename": "4"
-            },
-            {
-                "speaker": "8",
-                "filename": "9"
-            },
-            {
-                "speaker": "10",
-                "filename": "11"
-            }
-        ],
-        "theme": "5",
-        "optional": [
-            {
-                "Dialect": "6",
-                "Source": "7",
-                "North Slope Translation": "12",
-                "Malimiut Translation": "13",
-                "Ugiuvaŋmiutun Translation": "14"
+        "example_sentence": "3", "5", "7", "9", "11", "13", "15",
+        "example_sentence_definition": "4", "6", "8", "10", "12", "14", "16",
             }
         ]
     }
