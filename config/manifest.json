@@ -1,0 +1,59 @@
+{
+    "file_type": "csv",
+    "name": "All Phrases",
+    "display": "word",
+    "compare": "compare_form",
+    "sorting": "sort_form",
+    "transducers": [
+        {
+            "source": "word",
+            "target": "norm_form",
+            "functions": [
+                "lambda x: x.lower()"
+            ]
+        },
+        {
+            "source": "norm_form",
+            "target": "compare_form",
+            "functions": [
+                "../transducers/inupiaq-approx.yaml"
+            ]
+        },
+        {
+            "source": "word",
+            "target": "sort_form",
+            "functions": [
+                "lambda x: x.lower()"
+            ]
+        }
+    ],
+    "targets": {
+        "entryID": "0",
+        "word": "1",
+        "definition": "2",
+        "audio": [
+            {
+                "speaker": "3",
+                "filename": "4"
+            },
+            {
+                "speaker": "8",
+                "filename": "9"
+            },
+            {
+                "speaker": "10",
+                "filename": "11"
+            }
+        ],
+        "theme": "5",
+        "optional": [
+            {
+                "Dialect": "6",
+                "Source": "7",
+                "North Slope Translation": "12",
+                "Malimiut Translation": "13",
+                "Ugiuvaŋmiutun Translation": "14"
+            }
+        ]
+    }
+}
